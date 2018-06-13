@@ -1,0 +1,14 @@
+name: TitleAll
+description: Send a title to a player.
+main: php\php1
+api: [3.0.0-ALPHA10, 3.0.0-ALPHA11, 3.0.0-ALPHA12, 3.0.0-ALPHA13]
+version: 1.0.0
+author: Benzodoespvp
+commands:
+    titleall:
+        permission: titleall.cmd
+        usage: "/titleall <title> <subttitle>"
+        description: Send a title message to all the players online.
+permissions:
+    titleall.cmd:
+        default: op
